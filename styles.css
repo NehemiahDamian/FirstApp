@@ -1,0 +1,54 @@
+body {
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', Arial, sans-serif;
+  font-weight: bold;
+  color: white;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+}
+
+#message-el {
+  font-style: italic;
+}
+.first-content{
+  background-color: rgb(96, 160, 249);
+  width: 500px;
+  height: 320px;  
+  margin-top: 60px;
+
+}
+.cotainer
+{ 
+  display: flex;
+  justify-content: center;
+}
+
+button {
+  color: white;
+  width: 150px;
+  background: rgb(71, 104, 142);
+  padding: 7px 15px;
+  font-weight: bold;
+  font-size: 17px;
+  border: none;
+  border-radius: 2px;
+}
+
+button:hover{
+  background-color: rgb(9, 37, 75); 
+   transition: 0.15s;
+
+}
+
+button:active{
+  opacity: 0.6;
+}
+
+.buttons-container{
+  display: flex;
+  align-items: center;
+  row-gap: 10px;
+  flex-direction: column;
+}
